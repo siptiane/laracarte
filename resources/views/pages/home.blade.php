@@ -1,4 +1,4 @@
-@extends('layouts/default')
+@extends('layouts/default',['title' => 'home'])
 
 @section('content')
     <h1>Laracarte</h1>

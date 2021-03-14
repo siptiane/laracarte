@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laracarte</title>
         <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@350&display=swap" 
         rel="stylesheet"> 
@@ -27,6 +26,7 @@
 
             
         </style>
+        <title>{{ page_title($title ?? '') }}</title>
     </head>
     <body>
         @include('layouts/partials/_nav')
