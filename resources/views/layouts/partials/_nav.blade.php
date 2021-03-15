@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Main navigation">
   <div class="container">
-    <a class="navbar-brand" href="{{ route('rout_path') }}">laracarte</a>
+    <a class="navbar-brand" href="{{ route('rout_path') }}">{{config('app.name')}}</a>
     <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="offcanvas" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
