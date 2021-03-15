@@ -11,3 +11,8 @@
 
 		return $title.' | '.$base_title;
 	}
+
+	function set_active_route($route){
+
+		return Route::is($route) ? 'active' : '';
+	}
