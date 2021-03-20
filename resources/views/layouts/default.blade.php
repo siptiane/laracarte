@@ -20,8 +20,12 @@
                 margin: 50px 0px;
             }
 
-            .about{
+            .espace{
                 margin-top: 30px; 
+            }
+
+            a{
+                text-decoration: none;
             }
 
             
@@ -37,5 +41,6 @@
 
     <script src="{{asset('/vendor/js/jquery-3.5.1.min.js')}}"></script>
     <script src="{{asset('/vendor/js/bootstrap.min.js')}}"></script>
+    @include('flashy::message')
     </body>
 </html>
